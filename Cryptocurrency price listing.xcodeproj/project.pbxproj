@@ -56,15 +56,39 @@
 		3CBF4C4F26C171C0004D6BEF /* Cryptocurrency price listing */ = {
 			isa = PBXGroup;
 			children = (
+				3CBF4C6726C17486004D6BEF /* Supporting files */,
+				3CBF4C6626C17354004D6BEF /* Logic */,
+				3CBF4C6526C1734A004D6BEF /* User Interfernce */,
 				3CBF4C5026C171C0004D6BEF /* AppDelegate.swift */,
 				3CBF4C5226C171C0004D6BEF /* SceneDelegate.swift */,
-				3CBF4C5426C171C0004D6BEF /* ViewController.swift */,
-				3CBF4C5626C171C0004D6BEF /* Main.storyboard */,
 				3CBF4C5926C171C5004D6BEF /* Assets.xcassets */,
 				3CBF4C5B26C171C5004D6BEF /* LaunchScreen.storyboard */,
 				3CBF4C5E26C171C5004D6BEF /* Info.plist */,
 			);
 			path = "Cryptocurrency price listing";
+			sourceTree = "<group>";
+		};
+		3CBF4C6526C1734A004D6BEF /* User Interfernce */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF4C5626C171C0004D6BEF /* Main.storyboard */,
+			);
+			path = "User Interfernce";
+			sourceTree = "<group>";
+		};
+		3CBF4C6626C17354004D6BEF /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF4C5426C171C0004D6BEF /* ViewController.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		3CBF4C6726C17486004D6BEF /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
